@@ -1,0 +1,27 @@
+{
+  "name": "mongo-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/main.ts",
+    "start": "nodemon ./tps/main.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insc/mongo-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insc/mongo-node/issues"
+  },
+  "homepage": "https://github.com/insc/mongo-node#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
