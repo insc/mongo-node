@@ -6,4 +6,4 @@ const app = express();
 let helloWorld : String = "Hello world!!";
 let halloWelt : String = "Hallo Welt!!!";
 
-console.log('Server started!');
+console.log('Server started!', helloWorld);
